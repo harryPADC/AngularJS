@@ -16,8 +16,7 @@ $scope.tooMuch = function() {
   var lunchList = $scope.lunch.toString();
   var re = /\s*,\s*/;
   var arrayLunch = lunchList.split(re);
-  console.log(arrayLunch)
-  console.log(arrayLunch.length)
+  
 
   if (arrayLunch.length< 1 || arrayLunch == '') {
     $scope.shouldEat = 'Please Enter data First';
